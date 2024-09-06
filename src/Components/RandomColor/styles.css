@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.mainContainer{
+    min-height: 100vh;
+    min-width: 100vw;
+  
+}
+.btns {
+  width: 50%;
+  height:50px;
+  margin: auto;
+  display: flex;
+  justify-content:space-around;
+}
+.btns button{
+    font-size: x-large;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.colorCodes{
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 200px;
+}

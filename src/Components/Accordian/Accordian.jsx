@@ -11,15 +11,13 @@ const Accordian = () => {
   };
 
   const handleMultiple = (id) => {
-    if(enableMulti){
-    let cpyMulti = [...multiSelected];
-    const indexOfCurrentId = cpyMulti.indexOf(id);
-    if (indexOfCurrentId === -1) cpyMulti.push(id);
-    else cpyMulti.splice(indexOfCurrentId, 1);
+    let copySelected = [...multiSelected];
+    const indexOfCurrentId = copySelected.indexOf(id);
 
-    setMultiSelected(cpyMulti);
-    console.log(multiSelected);
-    }
+    if (indexOfCurrentId === -1) copySelected.push(id);
+    else copySelected.splice(indexOfCurrentId, 1);
+
+    setMultiSelected(copySelected);
   };
 
   return (
@@ -41,8 +39,11 @@ const Accordian = () => {
                 <span>+</span>
               </div>
               {/* {selected === item.id && <div>{item.content}</div>} */}
-              {enableMulti ? multiSelected.indexOf(item.id)!== -1 && (<div>{item.content}</div>)
-              : selected === item.id && <div>{item.content}</div>}
+              {enableMulti
+                ? multiSelected.indexOf(item.id) !== -1 && (
+                    <div>{item.content}</div>
+                  )
+                : selected === item.id && <div>{item.content}</div>}
             </div>
           ))}
       </div>
