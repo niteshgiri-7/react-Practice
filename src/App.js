@@ -7,6 +7,7 @@ import TreeNavigation from "./Components/TreeNavigation/TreeNavigation";
 import QrGenerator from "./Components/QrGenerator/QrGenerator";
 import Theme from "./Components/Theme/Theme";
 import ScrolIndicator from "./Components/Scroll-Indicator/ScrolIndicator";
+import Tab from "./Components/Tabs/Tab";
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
       {/* <TreeNavigation/> */}
       {/* <QrGenerator/> */}
       {/* <Theme /> */}
-      <ScrolIndicator />
+      {/* <ScrolIndicator /> */}
+      <Tab/>
     </div>
   );
 }
