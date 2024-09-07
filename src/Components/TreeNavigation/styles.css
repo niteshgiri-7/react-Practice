@@ -1,6 +1,9 @@
 .tree-view-container {
     font-family: Arial, sans-serif;
-    /* padding-left: 20px; */
+    height: 100vh;
+    width: 10vw;
+    background-color: violet;
+   
   }
   
   ul {
@@ -9,11 +12,11 @@
   }
   
   li {
-    margin: 5px 0; /* Space between list items */
+    margin: 5px 0; 
   }
   
   li::before {
-    content: "•"; /* Adds a bullet before each item */
+    content: "•"; 
     padding-right: 10px;
   }
   

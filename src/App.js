@@ -4,6 +4,7 @@ import Star from "./Components/Star/Star";
 import ImageSlider from "./Components/ImgSlider/ImageSlider";
 import LoadMore from "./Components/LoadMore/LoadMore";
 import TreeNavigation from "./Components/TreeNavigation/TreeNavigation";
+import QrGenerator from "./Components/QrGenerator/QrGenerator";
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
       {/* <Star /> */}
       {/* <ImageSlider/> */}
       {/* <LoadMore/> */}
-      <TreeNavigation/>
+      {/* <TreeNavigation/> */}
+      <QrGenerator/>
     </div>
   );
 }
