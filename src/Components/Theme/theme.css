@@ -1,35 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    --bg: #ffffff;
-    --text-color: #000000;
-    --btn-bg: #000000;
-    --btn-text: #ffffff;
-  }
-  
-  [data-theme="dark"] {
-    --bg: #000000;
-    --text-color: #ffffff;
-    --btn-bg: #ffffff;
-    --btn-text: #000000;
-  }
-  
-  .themeContainer {
-    background-color: var(--bg);
-    color: var(--text-color);
-    transition: all 0.5s;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-  }
-  .btn{
-    background-color: var(--btn-bg);
-    color:var(--btn-text);
-    padding:10px 20px;
-    border-radius: 15px;
-    font-size: 1.5rem;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: white;
+  --color: black;
+  --btn-bg: black;
+  --btn-text: white;
+}
+
+[data-theme="dark"] {
+  --bg: black;
+  --color: white;
+  --btn-bg: white;
+  --btn-text: black;
+}
+
+.mainContainer {
+  background-color: var(--bg);
+  color: var(--color);
+  transition: all 0.5s;
+}
+.btn {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.mainContainer h3 {
+  font-size: 4rem;
+}

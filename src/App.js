@@ -6,6 +6,7 @@ import LoadMore from "./Components/LoadMore/LoadMore";
 import TreeNavigation from "./Components/TreeNavigation/TreeNavigation";
 import QrGenerator from "./Components/QrGenerator/QrGenerator";
 import Theme from "./Components/Theme/Theme";
+import ScrolIndicator from "./Components/Scroll-Indicator/ScrolIndicator";
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
       {/* <LoadMore/> */}
       {/* <TreeNavigation/> */}
       {/* <QrGenerator/> */}
-      <Theme />
+      {/* <Theme /> */}
+      <ScrolIndicator />
     </div>
   );
 }
