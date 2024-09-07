@@ -1,0 +1,24 @@
+.tree-view-container {
+    font-family: Arial, sans-serif;
+    /* padding-left: 20px; */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px; /* Indent sub-lists */
+  }
+  
+  li {
+    margin: 5px 0; /* Space between list items */
+  }
+  
+  li::before {
+    content: "•"; /* Adds a bullet before each item */
+    padding-right: 10px;
+  }
+  
+  p {
+    display: inline-block;
+    font-weight: bold;
+  }
+  
