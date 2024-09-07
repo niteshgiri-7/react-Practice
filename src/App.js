@@ -5,6 +5,7 @@ import ImageSlider from "./Components/ImgSlider/ImageSlider";
 import LoadMore from "./Components/LoadMore/LoadMore";
 import TreeNavigation from "./Components/TreeNavigation/TreeNavigation";
 import QrGenerator from "./Components/QrGenerator/QrGenerator";
+import Theme from "./Components/Theme/Theme";
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
       {/* <ImageSlider/> */}
       {/* <LoadMore/> */}
       {/* <TreeNavigation/> */}
-      <QrGenerator/>
+      {/* <QrGenerator/> */}
+      <Theme />
     </div>
   );
 }

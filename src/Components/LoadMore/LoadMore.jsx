@@ -58,7 +58,7 @@ const LoadMore = () => {
         </div>
 
         <div className="button">
-          <button disabled={disableBtn} onClick={handleLoadMore}>
+          <button disabled={disableBtn} onClick={handleLoadMore} className="button">
             {disableBtn ? "You reached to the 100 products" : "Load More"}
           </button>
         </div>
