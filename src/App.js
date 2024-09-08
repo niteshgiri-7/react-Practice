@@ -8,6 +8,7 @@ import QrGenerator from "./Components/QrGenerator/QrGenerator";
 import Theme from "./Components/Theme/Theme";
 import ScrolIndicator from "./Components/Scroll-Indicator/ScrolIndicator";
 import Tab from "./Components/Tabs/Tab";
+import ModalParent from "./Components/Modal/ModalParent";
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,8 @@ function App() {
       {/* <QrGenerator/> */}
       {/* <Theme /> */}
       {/* <ScrolIndicator /> */}
-      <Tab/>
+      {/* <Tab/> */}
+      <ModalParent />
     </div>
   );
 }
