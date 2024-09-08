@@ -9,6 +9,7 @@ import Theme from "./Components/Theme/Theme";
 import ScrolIndicator from "./Components/Scroll-Indicator/ScrolIndicator";
 import Tab from "./Components/Tabs/Tab";
 import ModalParent from "./Components/Modal/ModalParent";
+import Github from "./Components/Github/Github";
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,8 @@ function App() {
       {/* <Theme /> */}
       {/* <ScrolIndicator /> */}
       {/* <Tab/> */}
-      <ModalParent />
+      {/* <ModalParent /> */}
+      <Github/>
     </div>
   );
 }
