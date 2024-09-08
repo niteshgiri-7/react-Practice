@@ -11,6 +11,7 @@ import Tab from "./Components/Tabs/Tab";
 import ModalParent from "./Components/Modal/ModalParent";
 import Github from "./Components/Github/Github";
 import AutoComplete from "./Components/AutoComplete/AutoComplete";
+import TicTacToe from "./Components/TicTacToe/TicTacToe";
 function App() {
   return (
     <div className="App">
@@ -26,7 +27,8 @@ function App() {
       {/* <Tab/> */}
       {/* <ModalParent /> */}
       {/* <Github/> */}
-      <AutoComplete/>
+      {/* <AutoComplete/> */}
+      <TicTacToe/>
     </div>
   );
 }
