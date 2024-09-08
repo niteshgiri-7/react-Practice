@@ -10,6 +10,7 @@ import ScrolIndicator from "./Components/Scroll-Indicator/ScrolIndicator";
 import Tab from "./Components/Tabs/Tab";
 import ModalParent from "./Components/Modal/ModalParent";
 import Github from "./Components/Github/Github";
+import AutoComplete from "./Components/AutoComplete/AutoComplete";
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,8 @@ function App() {
       {/* <ScrolIndicator /> */}
       {/* <Tab/> */}
       {/* <ModalParent /> */}
-      <Github/>
+      {/* <Github/> */}
+      <AutoComplete/>
     </div>
   );
 }
